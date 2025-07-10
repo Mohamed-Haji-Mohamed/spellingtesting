@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    body {
+      background-color: #021526;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .about-box {
+      background: #020133;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 2px 2px 2px 7px blue;
+      text-align: center;
+    }
+
+    .back-icon {
+      width: 32px;
+      height: 32px;
+      margin-bottom: 15px;
+      cursor: pointer;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: rgb(88, 238, 88);
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: white;
+    }
+
+  #paypal,#link{
+  margin: 8px;
+  padding: 12px 24px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(169, 156, 241);
+  background: #010113;
+  border: none;
+  box-shadow: 0px 2px 3px 3px #13b7e9;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none; 
+  }
+
+    @media (max-width: 600px) {
+      .about-box {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="about-box">
+    <a href="index.html">
+      <img src="back.png" alt="Back" class="back-icon" />
+    </a>
+    <h1>pricing</h1>
+    <p>
+      This website is designed to help English learners, children, and anyone looking to improve or test their spelling skills.<br><br>
+      The platform currently features 12 levels, each containing 20 multiple-choice questions — totaling 240 questions.<br><br>
+      You can support the improvement of this website with an optional $2.40 contribution via this PayPal. <br> <br>
+       <p><span id="PayPal"><a id="link" href="index.html">PayPal</a></span></p> 
+    </p>
+  </div>
+</body>
+</html>
