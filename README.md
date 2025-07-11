@@ -1,4 +1,4 @@
-# 📝 English Spelliing Testing Website
+# 📝 English Spelling Testing Website
 
 This Website is designed to help English learners, children and anyone who wants to Improve or test their Spelling skills.
 
